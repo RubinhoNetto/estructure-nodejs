@@ -9,6 +9,12 @@
  * @since       1.0.0
  * @version     1.0.0
  */
+
+/**
+ * 
+ * @global
+ * @export Acl
+ */
 module.exports = {
 
 };

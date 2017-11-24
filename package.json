@@ -2,13 +2,18 @@
   "name": "zelopet",
   "version": "1.0.0",
   "description": "Web App que ajuda a gerenciar seu petshop.",
-  "main": "index.js",
+  "main": "public/index.js",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-query-int": "^2.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon public/index.js"
   },
   "author": "@hermes.netto, @rubens.neto, @weiberlan.garcia",
   "license": "ISC"
